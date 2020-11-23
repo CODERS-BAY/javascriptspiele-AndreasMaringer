@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-color: rgb(126, 126, 123);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color: rgb(2, 155, 250);
+    text-transform: uppercase;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header {
+    color: rgb(37, 37, 37);
+    height: 70px;
+    width: 640px;
+    border: 5px solid rgb(252, 252, 2);
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+    
+    border-radius: 10px;
+    text-align: center;
+    padding: 13px auto 13px;
+    margin: 30px auto 20px;
+}
+header p {
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;   
+    
+}
+#inputfield{
+    display:flex;
+    visibility: visible;
+    
+}
+
+.counterScreen {
+    width: 200px;
+    height: 70px;
+    background-color: rgb(63,63,63);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    justify-content: space-around;
+    visibility: visible;
+}
+.counterScreen p{
+    color: rgb(114,116,114);
+}
+.counterScreen input{
+    color: rgb(252, 252, 2);
+    
+}
+label {
+    width: 50%;
+}
+#counter{
+    background-color: rgb(63, 63, 63);
+    display:block;
+    width: 50%;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    
+}
+
+#computer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#cut {
+    visibility: hidden;
+}
+#stone {
+    visibility: hidden;
+}
+#paper {
+    visibility: hidden;
+}
+#button1 {
+    color: rgb(252, 252, 2);
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+}
+.button {
+    
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+    background-color: rgb(114, 116, 114);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 5px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    
+    }
+.button:hover {
+    opacity: 0.75;
+}
+.button.again {
+    color: rgb(252, 252, 2);
+    background-color: rgb(46, 45, 46);
+    border-radius: 5px;
+    height: 70px;
+    padding: 5px;
+    margin: 20px; 
+    
+    width: 200px;
+
+}
+#againButton{
+    visibility: hidden;
+}
+i {
+    
+    display: block;
+    background-color: rgb(114,116,114);
+    font-size: 7rem;
+    margin: 20px 20px;
+    
+}
+#gameResult {
+    align-content: center;
+    background-color: rgb(65, 64, 64);
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+    border-radius: 5px;
+    height: 70px;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    visibility: hidden;
+    width:200px;
+    
+    
+}
+#endResult {
+    background-color: rgb(255, 1, 1);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(63,63,63);
+    height: 70px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    visibility: hidden;
+    width:200px;
+    
+}
+#resultContainer {
+    display: flex;
+    
+}

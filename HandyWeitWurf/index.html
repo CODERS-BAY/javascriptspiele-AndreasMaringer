@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HandyWeitWurf</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="result"></div>
+        <div id="input">
+            <label>Auf welchen Planeten befindest du dich?</label>
+            <select id="planet" name="planet">
+                <option value="9.81">Erth</option> 
+                <option value="1.62">Moon</option>
+                <option value="3.69">Mars</option>
+                <option value="24.79">Jupiter</option>
+            </select>
+        </div>
+        <div id="input">
+            <label>INPUT ANGLE: <input id="angleinput" name="angleinput" type="number" onclick="winkel()"> degree </label>
+        </div>
+        <div id="input">
+            <label>INPUT SPEED: <input id="speedinput"name="speedinput" type="number" onclick="speed()"> km/h </label> 
+        </div>
+        <div class="button" onclick="shot()">
+            <label>SHOT</label>
+        </div>
+        
+        <script type="text/javascript" src="./js/script.js"></script>
+    </body>
+</html>

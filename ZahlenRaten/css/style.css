@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(183, 241, 21);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+#line {
+    display: flex;
+    flex-direction: row;
+} 
+#header p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.button {
+    background-color: goldenrod;
+    border-radius: 1rem;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: black 0px 0px 10px inset;
+
+}
+input {
+    color: #ffff;
+    background-color: #0000;
+    
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#startscreen {
+    background-color: red;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#numberscreen {
+    background-color: chocolate;
+    border-radius: 5px;
+    display: none;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+#secondscreen {
+    text-align: center;
+    background-color: blue;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    display: none;
+
+}
+#lastscreen {
+    text-align: center;
+    border-radius: 5px;
+    color: blue;
+    background-color: black;
+    display: none;
+    margin: 20px;
+    padding: 10px;
+
+}
+#raten {
+    display: none;
+}
