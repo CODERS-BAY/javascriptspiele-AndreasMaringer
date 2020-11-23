@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZahlenRaten</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div id="header">
+            <p>Zahlen raten!</p>
+        </div>
+
+       <div id="startscreen">
+           <h1>Eingabe</h1>
+           <p>Gib eine Obergrenze (10 - 100) der Zahl ein die du erraten willst:</p>
+           <input id="oberGrenze" type="number" name="oberGrenze" min="10" max="100" value="10">
+           <p>Wie oft möchtest du es versuchen: </p>
+           <input id="anzahlDerVersuche" type="number" name="anzahlDerVersuche" min="3" max="9" value="3">
+       </div> 
+       <div id="numberscreen">
+            <h1>Gib deine Zahl ein: </h1>
+            <input id="gerateneZahl" type="number"name="gerateneZahl">
+       </div>
+       <div id="secondscreen"> 
+           <h1>Ergebnis</h1>   
+       </div>
+       <div id="line">
+            <div id="play" class="button"onclick="play()">
+            <h2>Play</h2>
+            </div>
+            <div id="raten" class="button" onclick="rateZahl()">
+            <h2>Prüfe Zahl</h2> 
+            </div>
+            <div id="again" class="button" onclick="playAgain()">
+            <h2>Play Again</h2> 
+            </div>
+        </div>
+        <div id="lastscreen">
+            <h1>Game over</h1>
+        </div>
+        <script type="text/Javascript" src="js/script.js"></script>
+    </body>
+</html>
